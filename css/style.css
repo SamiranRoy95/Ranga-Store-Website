@@ -14,16 +14,28 @@ body {
 }
 .search-box {
   border: 1px solid rgb(3, 118, 211);
-  width: 281px;
+  width: 450px;
   border-radius: 5px;
   margin: auto;
   margin-top: 50px;
   border-right: none;
+  display: flex;
+  margin-bottom: 80px;
+  
+}
+.search-field{
+  flex:1;
 }
 .search-button {
   padding: 10px 50px;
   border-radius: 25px;
-  margin-left: 20px;
+  margin-left: 25px;
+  outline: 0;
+  border: none;
+}
+.search-btn{
+  outline: 0;
+  
 }
 #all-products {
   display: grid;
